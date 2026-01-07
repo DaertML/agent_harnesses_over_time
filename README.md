@@ -34,3 +34,13 @@ Somehow, it was a needed step to bootstrap the amount of intelligence that we ha
 
 I do not know if I am missing something, but I can tell that I have spent a shit ton of time on langchain like systems, crewAI harnesses and the like and Flowise-like platforms; and at each step over the last 3 years, they all felt like the right thing, and at the same time like it was behaving so wrong.
 
+The first time it felt like we could really leave the machine to do the things we wanted on its own, is when models like Qwen3, reasoning and better harnesses got together. I have been coding agents (not open sourced though) for a while with those 3 ingredients, and they all meant a big difference:
+- Adding reasoning to the soup makes the model to analyze different ways to solve problems.
+- Adding better harnesses to the model (I hated langchain and the like as they were obscure, they changed the API from time to time breaking things...); that did not depend on 3rd parties, because an agent is just a clear explanation of the tools and a prompt on how to use them if you see it from a high level PoV.
+- Adding better models (out of the reasoning paradigm) like Qwen3, meant that all the hardcoded workflows were now changed to just be "go do your thing"; and this thing evolved towards something way bigger with the release of even better models like Minimax, GLM4.5/6/7 and Kimi K2.
+
+# Is a terminal interface like Claude Code/OpenCode all we need?
+This question has been a "yes sure" for each kind of agent harness (or interface) that has appeared over the last 2 years; yet to be dethroned by a new way of doing things. Somehow, this one solved very complex problems by taking the common factor, and being so tiny and not so tightened that you can actually put things on top of it as you need, without causing the whole system to fail dramatically.
+
+Anthropic found that just by making the model better, wrapping it in something that can be hackable, automatable, that runs with a bare minimum of resources and that is extensible; would provide the base towards creating AGIs. The term AGI is also feeling so old nowadays; one needs all the pieces to form the neurosymbolic promise that we have been looking for since the inception of AI. There was a very long time during the last 3 years, in which AGI implied an improvement in model capabilities alone; but it is feeling more like AGI actually implies something more like what Claude Code does under the hood.
+
