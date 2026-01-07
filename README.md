@@ -53,5 +53,7 @@ As one can see, now we can tighten a bit the general harness to adapt to busines
 
 Also, the way we program agents with Claude Code or like interfaces has changed; now you write skills and subagents in Markdown (english programming), instead of writing python scripts that contain the workflows and the steps to solve problems. You can still add some python or code on top, and is well adviced to ease on the context utilization.
 
+One final point that is remarkable, is the fact that OpenAI and Anthropic took two different approaches: one based on user experience hand-by-hand with the model and the other considered to run automated systems on the cloud to solve coding issues. The "cron" kind of AI that launched under certain events is the way for OpenAI and the "go do X" kind of thing is the way Anthropic is moving forward. Somehow, I feel like Claude Code can be set to behave like Codex in an easier way than making Codex do the "Claude Code" thing and adapting it to be the agent we have been looking for.
+
 # Are we missing something?
-Possibly many things, 
+Possibly many things, in this short analysis we have not touched on embodiment (games/robotics) of AI, and it is likely that such will require a different set of skills and technologies ot reach the "claude code moment of robotics". At this stage the white collar kind of jobs can start to be automated in a right way by coding the right logic (in english) in a bunch of .md files, and letting the terminal interface to know what to do.
