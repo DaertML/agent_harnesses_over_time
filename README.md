@@ -44,3 +44,14 @@ This question has been a "yes sure" for each kind of agent harness (or interface
 
 Anthropic found that just by making the model better, wrapping it in something that can be hackable, automatable, that runs with a bare minimum of resources and that is extensible; would provide the base towards creating AGIs. The term AGI is also feeling so old nowadays; one needs all the pieces to form the neurosymbolic promise that we have been looking for since the inception of AI. There was a very long time during the last 3 years, in which AGI implied an improvement in model capabilities alone; but it is feeling more like AGI actually implies something more like what Claude Code does under the hood.
 
+# So... is it AGI like out of the box?
+The base provided by these terminal like interfaces, provides all the toolsets to get towards AGIs, by just configuring them in different manners; this is opening the door towards "continual learning" (which very likely may not need weight updates after all; and just require a way to update the memory system of the agent; yep, I am out of the weight update fever, that doesnt feel scalable enough; if you need to continually learn, go prompt engineering with ICL or go train some LoRAs). 
+
+Code feels like the right way to automate things; have been so, since the inception of Computer Science; and this mixed with the neurosymbolic capabilities of AI Models, is bringing us to a general interface that can be used for barely any use case. We are solving this by deduction, and by adapting the general interface to each use case, instead of doing so by induction. It is very likely that AGI may never come from an inductive approach, and may require an deductive one, as we have seen with prompt engineering.
+
+As one can see, now we can tighten a bit the general harness to adapt to business workflows, instead of living a chaotic behavior under the decisions of the model; but doing so on top of the general method saves a lot of time; as otherwise, it would require to write the harness for each use case from scratch, instead of taking the model to some specs on how to do things.
+
+Also, the way we program agents with Claude Code or like interfaces has changed; now you write skills and subagents in Markdown (english programming), instead of writing python scripts that contain the workflows and the steps to solve problems. You can still add some python or code on top, and is well adviced to ease on the context utilization.
+
+# Are we missing something?
+Possibly many things, 
